@@ -17,6 +17,9 @@
 
 LOCAL_PATH := $(call my-dir)
 
+#LOCAL_SHARED_LIBRARIES := libbinder libc++ libc libCB libcutils libdl libgps.utils libgsl libloc_core liblog libm libnativehelper libqservice libsdmutils libqmi_cci libqmi_common_so libutils android.hidl.base@1.0 libbase libchrome libhidlbase libhidltransport libhwbinder vendor.qti.hardware.btconfigstore@1.0 libstdc++
+LOCAL_CHECK_ELF_FILES := false
+
 ifeq ($(TARGET_DEVICE),land)
 
 endif
