@@ -1636,6 +1636,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libloc_api_v02 \
+    libantradio \
     vendor.qti.hardware.fm@1.0 \
     QtiTelephonyService \
     imssettings \
